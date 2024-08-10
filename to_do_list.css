@@ -1,0 +1,71 @@
+/* A To_do_list Project by Divyansh Rautela  */
+
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+/* body of the list */
+
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20231211/pngtree-christmas-mosk-up-wish-list-on-purple-background-notebook-todo-list-image_15497116.jpg");
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ /* container element */
+ 
+ .container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: rgb(171, 83, 222);
+    border:4px double black ;
+    border-radius: 11%;
+    margin-left: 33%;
+    margin-top: 5px;
+ }
+ input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(119, 16, 222);
+    outline: none;
+    font-size: 21px;
+ }
+ input:hover{
+    border: 2px solid rgb(215, 87, 12);
+    }
+
+    /* button  */
+
+ button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(119, 16, 222);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 16px;
+    font-size: 19px;
+ }
+ button:hover{
+    border: 2px solid rgb(46, 25, 13);
+ }
+
+ /* writting text */
+ 
+ .text ul{
+    position: relative;
+    background-color: rgb(232, 178, 246);
+    color: rgb(18, 7, 7);
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
